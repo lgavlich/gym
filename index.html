@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <a>
+            <!-- <img src="./images/search.svg"/> -->
+          </a>
+          <!--кнопка-->
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            data-menu-button
+          >
+            <svg
+              width="25"
+              height="25"
+              aria-label="переключатель мобильного меню"
+            >
+              <use
+                class="icon-close"
+                href="./images/sprite.svg#icon-close-black-18dp-2-1"
+              ></use>
+              <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+            </svg>
+          </button>
+          <div class="header-menu" data-menu id="header-menu">
+            <ul class="navigation-list">
+              <li class="navigation-list-item">
+                <a class="navigation-list-link nav-list-link" href="Студия"
+                  >Location</a
+                >
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link">About us</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link" href="">Contact</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="navigation-list-link" href="">Home</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!--HERO-->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">
+              Fitness gym <br />
+              center
+            </h1>
+            <!-- <button class="modal-btn" type="button" data-modal-open>
+              Заказать услугу
+            </button> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
